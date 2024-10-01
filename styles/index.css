@@ -51,10 +51,27 @@ body{
     text-align: center;
    
 }
+@media (max-width: 768px) {
+    .site__info__title {
+        font-size: 72px;
+    }
+    .site__info__text {
+        font-size: 22px;
+    }
+}
+
 @media (max-width: 320px) {
     .site__info__text br {
         display: inline; 
     }
+    .site__info__title {
+        font-size: 36px;
+    }
+    .site__info__text {
+        font-size: 12px;
+    }
 }
+
+
 
 
