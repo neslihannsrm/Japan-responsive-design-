@@ -18,8 +18,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
     flex-wrap: wrap;
+    gap: 30px;
 }
 .nav a {
     text-decoration: none;
@@ -49,6 +49,7 @@ body{
     font-weight: 400;
     font-size: 22px;
     text-align: center;
+    max-width: 575px;
    
 }
 @media (max-width: 768px) {
@@ -61,8 +62,9 @@ body{
 }
 
 @media (max-width: 320px) {
-    .site__info__text br {
+    .site__info__text {
         display: inline; 
+        text-align: center;
     }
     .site__info__title {
         font-size: 36px;
